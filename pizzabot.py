@@ -18,7 +18,8 @@ def userInfoQuestions(question):
 
 
 
-welcome()
-userInfoQuestions("Please enter name:")
-userInfoQuestions("Please enter phone number:")
+def main():
+    welcome()
+    userInfoQuestions("Please enter name:")
+    userInfoQuestions("Please enter phone number:")
 
